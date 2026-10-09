@@ -1,0 +1,4 @@
+{
+  "_comment": "Manual identity merges that automatic matching (same e-mail or same accent-insensitive name) cannot detect. Key = alias as it appears in git (name or e-mail), value = canonical name. Verify each entry yourself (e.g. on GitHub) before relying on it.",
+  "adrian@zyte.com": "Adrián Chaves"
+}

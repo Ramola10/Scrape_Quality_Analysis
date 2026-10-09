@@ -1,0 +1,652 @@
+file,area,ext,code,comment,blank
+.git-blame-ignore-revs,other,(none),7,0,0
+.gitattributes,other,(none),1,0,0
+.github/ISSUE_TEMPLATE/bug_report.md,other,.md,24,0,17
+.github/ISSUE_TEMPLATE/feature_request.md,other,.md,19,0,14
+.github/ISSUE_TEMPLATE/question.md,other,.md,10,0,3
+.github/dependabot.yml,other,.yml,12,0,0
+.github/workflows/checks.yml,other,.yml,72,0,9
+.github/workflows/codspeed.yml,other,.yml,92,0,13
+.github/workflows/flag-prs-for-triage.yml,other,.yml,244,0,11
+.github/workflows/publish.yml,other,.yml,45,0,5
+.github/workflows/tests-macos.yml,other,.yml,76,0,12
+.github/workflows/tests-ubuntu.yml,other,.yml,138,0,15
+.github/workflows/tests-vcs-deps.yml,other,.yml,48,0,9
+.github/workflows/tests-windows.yml,other,.yml,89,0,14
+.gitignore,other,(none),29,0,2
+.pre-commit-config.yaml,other,.yaml,37,0,0
+.readthedocs.yml,other,.yml,10,0,0
+AUTHORS,other,(none),56,0,2
+CITATION.cff,other,.cff,6,0,0
+CODE_OF_CONDUCT.md,other,.md,97,0,36
+CONTRIBUTING.md,other,.md,5,0,1
+INSTALL.md,other,.md,3,0,1
+LICENSE,other,(none),22,0,5
+NEWS,other,(none),1,0,0
+README.rst,other,.rst,37,0,17
+SECURITY.md,other,.md,8,0,4
+codecov.yml,other,.yml,5,0,1
+conftest.py,other,.py,150,30,45
+docs/Makefile,docs,(none),16,0,4
+docs/_ext/scrapydocs.py,docs,.py,129,4,40
+docs/_ext/scrapyfixautodoc.py,docs,.py,9,6,6
+docs/_static/custom.css,docs,.css,51,0,5
+docs/_static/logo.svg,docs,.svg,1,0,0
+docs/_static/selectors-sample1.html,docs,.html,16,0,1
+docs/_templates/layout.html,docs,.html,18,0,5
+docs/_tests/quotes.html,docs,.html,209,0,72
+docs/_tests/quotes1.html,docs,.html,209,0,72
+docs/conf.py,docs,.py,100,59,41
+docs/conftest.py,docs,.py,24,1,9
+docs/contributing.rst,docs,.rst,298,0,121
+docs/faq.rst,docs,.rst,291,0,140
+docs/index.rst,docs,.rst,218,0,85
+docs/intro/examples.rst,docs,.rst,15,0,5
+docs/intro/install.rst,docs,.rst,225,0,101
+docs/intro/overview.rst,docs,.rst,117,0,42
+docs/intro/tutorial.rst,docs,.rst,588,0,254
+docs/news.rst,docs,.rst,7877,0,2651
+docs/requirements.in,docs,.in,9,0,0
+docs/requirements.txt,docs,.txt,202,0,0
+docs/topics/addons.rst,docs,.rst,150,0,56
+docs/topics/agents.rst,docs,.rst,36,0,13
+docs/topics/api.rst,docs,.rst,178,0,98
+docs/topics/architecture.rst,docs,.rst,118,0,47
+docs/topics/asyncio.rst,docs,.rst,268,0,95
+docs/topics/autothrottle.rst,docs,.rst,136,0,55
+docs/topics/benchmarking.rst,docs,.rst,77,0,9
+docs/topics/commands.rst,docs,.rst,571,0,263
+docs/topics/components.rst,docs,.rst,116,0,41
+docs/topics/concepts.rst,docs,.rst,79,0,23
+docs/topics/contracts.rst,docs,.rst,96,0,49
+docs/topics/cookies.rst,docs,.rst,95,0,43
+docs/topics/coroutines.rst,docs,.rst,192,0,84
+docs/topics/debug.rst,docs,.rst,183,0,81
+docs/topics/deploy.rst,docs,.rst,43,0,16
+docs/topics/developer-tools.rst,docs,.rst,243,0,75
+docs/topics/djangoitem.rst,docs,.rst,8,0,5
+docs/topics/download-handlers.rst,docs,.rst,329,0,132
+docs/topics/downloader-middleware.rst,docs,.rst,846,0,456
+docs/topics/dynamic-content.rst,docs,.rst,204,0,84
+docs/topics/exceptions.rst,docs,.rst,15,0,10
+docs/topics/exporters.rst,docs,.rst,366,0,171
+docs/topics/extensions.rst,docs,.rst,388,0,185
+docs/topics/feed-exports.rst,docs,.rst,533,0,293
+docs/topics/item-pipeline.rst,docs,.rst,279,0,134
+docs/topics/items.rst,docs,.rst,283,0,152
+docs/topics/jobs.rst,docs,.rst,138,0,60
+docs/topics/leaks.rst,docs,.rst,213,0,75
+docs/topics/link-extractors.rst,docs,.rst,41,0,21
+docs/topics/loaders.rst,docs,.rst,331,0,132
+docs/topics/logging.rst,docs,.rst,274,0,124
+docs/topics/media-pipeline.rst,docs,.rst,596,0,311
+docs/topics/optimize.rst,docs,.rst,242,0,106
+docs/topics/practices.rst,docs,.rst,427,0,175
+docs/topics/request-response.rst,docs,.rst,1006,0,490
+docs/topics/scheduler.rst,docs,.rst,26,0,15
+docs/topics/scrapyd.rst,docs,.rst,8,0,5
+docs/topics/security.rst,docs,.rst,237,0,103
+docs/topics/selectors.rst,docs,.rst,822,0,368
+docs/topics/settings.rst,docs,.rst,1609,0,869
+docs/topics/shell.rst,docs,.rst,242,0,103
+docs/topics/signals.rst,docs,.rst,414,0,192
+docs/topics/spider-middleware.rst,docs,.rst,331,0,159
+docs/topics/spiders.rst,docs,.rst,713,0,310
+docs/topics/stats.rst,docs,.rst,499,0,265
+docs/topics/telnetconsole.rst,docs,.rst,152,0,64
+docs/utils/linkfix.py,docs,.py,31,23,18
+docs/versioning.rst,docs,.rst,43,0,22
+extras/coverage-report.sh,other,.sh,6,0,1
+extras/qps-bench-server.py,other,.py,45,2,14
+extras/qpsclient.py,other,.py,31,12,12
+extras/scrapy.1,other,.1,68,0,6
+extras/scrapy_bash_completion,other,(none),19,0,1
+extras/scrapy_zsh_completion,other,(none),197,0,14
+pyproject.toml,other,.toml,483,0,34
+scrapy/VERSION,production code,(none),1,0,0
+scrapy/__init__.py,production code,.py,23,6,9
+scrapy/__main__.py,production code,.py,3,1,1
+scrapy/addons.py,production code,.py,42,20,14
+scrapy/cmdline.py,production code,.py,191,8,43
+scrapy/commands/__init__.py,production code,.py,223,26,41
+scrapy/commands/bench.py,production code,.py,53,1,15
+scrapy/commands/check.py,production code,.py,123,8,21
+scrapy/commands/crawl.py,production code,.py,25,0,9
+scrapy/commands/edit.py,production code,.py,45,6,15
+scrapy/commands/fetch.py,production code,.py,81,2,18
+scrapy/commands/genspider.py,production code,.py,198,10,28
+scrapy/commands/list.py,production code,.py,16,0,7
+scrapy/commands/parse.py,production code,.py,354,6,56
+scrapy/commands/runspider.py,production code,.py,53,0,13
+scrapy/commands/settings.py,production code,.py,58,0,7
+scrapy/commands/shell.py,production code,.py,96,17,23
+scrapy/commands/startproject.py,production code,.py,108,8,26
+scrapy/commands/version.py,production code,.py,29,0,7
+scrapy/commands/view.py,production code,.py,21,0,7
+scrapy/contracts/__init__.py,production code,.py,212,23,67
+scrapy/contracts/default.py,production code,.py,97,96,79
+scrapy/core/__init__.py,production code,.py,0,3,0
+scrapy/core/_http2/__init__.py,production code,.py,0,0,0
+scrapy/core/_http2/agent.py,production code,.py,103,16,30
+scrapy/core/_http2/protocol.py,production code,.py,317,100,71
+scrapy/core/_http2/stream.py,production code,.py,328,120,84
+scrapy/core/downloader/__init__.py,production code,.py,297,34,44
+scrapy/core/downloader/_idna_patch.py,production code,.py,36,27,17
+scrapy/core/downloader/contextfactory.py,production code,.py,223,70,48
+scrapy/core/downloader/handlers/__init__.py,production code,.py,140,25,26
+scrapy/core/downloader/handlers/_aiohttp.py,production code,.py,132,8,21
+scrapy/core/downloader/handlers/_base_http.py,production code,.py,18,1,6
+scrapy/core/downloader/handlers/_base_streaming.py,production code,.py,239,34,45
+scrapy/core/downloader/handlers/_httpx.py,production code,.py,190,8,33
+scrapy/core/downloader/handlers/base.py,production code,.py,20,2,10
+scrapy/core/downloader/handlers/datauri.py,production code,.py,16,0,8
+scrapy/core/downloader/handlers/file.py,production code,.py,16,0,6
+scrapy/core/downloader/handlers/ftp.py,production code,.py,81,31,23
+scrapy/core/downloader/handlers/http.py,production code,.py,15,1,3
+scrapy/core/downloader/handlers/http11.py,production code,.py,663,110,107
+scrapy/core/downloader/handlers/http2.py,production code,.py,107,0,21
+scrapy/core/downloader/handlers/s3.py,production code,.py,67,1,12
+scrapy/core/downloader/middleware.py,production code,.py,127,7,23
+scrapy/core/downloader/tls.py,production code,.py,116,29,32
+scrapy/core/engine.py,production code,.py,574,73,80
+scrapy/core/scheduler.py,production code,.py,209,250,94
+scrapy/core/scraper.py,production code,.py,454,60,56
+scrapy/core/spidermw.py,production code,.py,264,14,30
+scrapy/crawler.py,production code,.py,660,370,189
+scrapy/downloadermiddlewares/__init__.py,production code,.py,0,0,0
+scrapy/downloadermiddlewares/cookies.py,production code,.py,125,11,32
+scrapy/downloadermiddlewares/defaultheaders.py,production code,.py,24,6,11
+scrapy/downloadermiddlewares/downloadtimeout.py,production code,.py,28,6,11
+scrapy/downloadermiddlewares/httpauth.py,production code,.py,67,9,13
+scrapy/downloadermiddlewares/httpcache.py,production code,.py,144,12,29
+scrapy/downloadermiddlewares/httpcompression.py,production code,.py,159,6,18
+scrapy/downloadermiddlewares/httpproxy.py,production code,.py,88,4,14
+scrapy/downloadermiddlewares/offsite.py,production code,.py,72,48,31
+scrapy/downloadermiddlewares/redirect.py,production code,.py,224,15,43
+scrapy/downloadermiddlewares/retry.py,production code,.py,125,59,30
+scrapy/downloadermiddlewares/robotstxt.py,production code,.py,113,7,22
+scrapy/downloadermiddlewares/stats.py,production code,.py,63,3,15
+scrapy/downloadermiddlewares/useragent.py,production code,.py,28,3,12
+scrapy/dupefilters.py,production code,.py,124,24,31
+scrapy/exceptions.py,production code,.py,35,95,65
+scrapy/exporters.py,production code,.py,321,40,71
+scrapy/extension.py,production code,.py,13,5,8
+scrapy/extensions/__init__.py,production code,.py,0,0,0
+scrapy/extensions/closespider.py,production code,.py,111,8,30
+scrapy/extensions/corestats.py,production code,.py,43,4,13
+scrapy/extensions/debug.py,production code,.py,54,8,17
+scrapy/extensions/feedexport.py,production code,.py,634,70,100
+scrapy/extensions/httpcache.py,production code,.py,315,56,67
+scrapy/extensions/logcount.py,production code,.py,28,8,14
+scrapy/extensions/logstats.py,production code,.py,70,5,24
+scrapy/extensions/memdebug.py,production code,.py,27,6,10
+scrapy/extensions/memusage.py,production code,.py,136,9,24
+scrapy/extensions/periodic_log.py,production code,.py,162,2,23
+scrapy/extensions/postprocessing.py,production code,.py,79,60,37
+scrapy/extensions/remote_control.py,production code,.py,238,75,43
+scrapy/extensions/spiderstate.py,production code,.py,37,2,12
+scrapy/extensions/statsmailer.py,production code,.py,39,6,12
+scrapy/extensions/telnet.py,production code,.py,87,12,26
+scrapy/extensions/throttle.py,production code,.py,90,13,24
+scrapy/http/__init__.py,production code,.py,22,6,3
+scrapy/http/cookies.py,production code,.py,143,20,52
+scrapy/http/headers.py,production code,.py,127,11,36
+scrapy/http/request/__init__.py,production code,.py,237,155,69
+scrapy/http/request/form.py,production code,.py,209,72,54
+scrapy/http/request/json_request.py,production code,.py,57,8,19
+scrapy/http/request/rpc.py,production code,.py,20,9,14
+scrapy/http/response/__init__.py,production code,.py,251,74,48
+scrapy/http/response/html.py,production code,.py,3,7,4
+scrapy/http/response/json.py,production code,.py,3,6,4
+scrapy/http/response/text.py,production code,.py,234,68,44
+scrapy/http/response/xml.py,production code,.py,3,7,4
+scrapy/interfaces.py,production code,.py,13,2,8
+scrapy/item.py,production code,.py,73,52,37
+scrapy/link.py,production code,.py,30,24,15
+scrapy/linkextractors/__init__.py,production code,.py,107,15,13
+scrapy/linkextractors/lxmlhtml.py,production code,.py,234,152,73
+scrapy/loader/__init__.py,production code,.py,25,72,29
+scrapy/logformatter.py,production code,.py,128,51,25
+scrapy/mail.py,production code,.py,197,9,38
+scrapy/middleware.py,production code,.py,138,4,23
+scrapy/mime.types,production code,.types,736,0,14
+scrapy/pipelines/__init__.py,production code,.py,115,13,33
+scrapy/pipelines/files.py,production code,.py,642,45,102
+scrapy/pipelines/images.py,production code,.py,226,13,39
+scrapy/pipelines/media.py,production code,.py,260,42,44
+scrapy/pqueues.py,production code,.py,298,101,72
+scrapy/py.typed,production code,.typed,0,0,0
+scrapy/resolver.py,production code,.py,112,16,31
+scrapy/responsetypes.py,production code,.py,106,16,16
+scrapy/robotstxt.py,production code,.py,89,26,34
+scrapy/selector/__init__.py,production code,.py,5,4,2
+scrapy/selector/unified.py,production code,.py,45,45,29
+scrapy/settings/__init__.py,production code,.py,353,313,131
+scrapy/settings/default_settings.py,production code,.py,525,20,89
+scrapy/shell.py,production code,.py,220,90,35
+scrapy/signalmanager.py,production code,.py,45,57,25
+scrapy/signals.py,production code,.py,22,6,2
+scrapy/spiderloader.py,production code,.py,92,35,34
+scrapy/spidermiddlewares/__init__.py,production code,.py,0,0,0
+scrapy/spidermiddlewares/base.py,production code,.py,49,48,26
+scrapy/spidermiddlewares/depth.py,production code,.py,86,30,23
+scrapy/spidermiddlewares/httperror.py,production code,.py,68,7,18
+scrapy/spidermiddlewares/metacopy.py,production code,.py,48,5,13
+scrapy/spidermiddlewares/referer.py,production code,.py,236,149,83
+scrapy/spidermiddlewares/start.py,production code,.py,13,12,9
+scrapy/spidermiddlewares/urllength.py,production code,.py,34,6,13
+scrapy/spiders/__init__.py,production code,.py,87,82,52
+scrapy/spiders/crawl.py,production code,.py,189,8,37
+scrapy/spiders/feed.py,production code,.py,80,53,31
+scrapy/spiders/sitemap.py,production code,.py,120,19,27
+scrapy/squeues.py,production code,.py,147,26,34
+scrapy/statscollectors.py,production code,.py,98,32,41
+scrapy/templates/project/module/__init__.py,production code,.py,0,0,0
+scrapy/templates/project/module/items.py.tmpl,production code,.tmpl,10,0,3
+scrapy/templates/project/module/middlewares.py.tmpl,production code,.tmpl,77,0,23
+scrapy/templates/project/module/pipelines.py.tmpl,production code,.tmpl,9,0,4
+scrapy/templates/project/module/settings.py.tmpl,production code,.tmpl,70,0,17
+scrapy/templates/project/module/spiders/__init__.py,production code,.py,0,4,0
+scrapy/templates/project/scrapy.cfg,production code,.cfg,9,0,2
+scrapy/templates/spiders/basic.tmpl,production code,.tmpl,7,0,3
+scrapy/templates/spiders/crawl.tmpl,production code,.tmpl,14,0,4
+scrapy/templates/spiders/csvfeed.tmpl,production code,.tmpl,16,0,4
+scrapy/templates/spiders/xmlfeed.tmpl,production code,.tmpl,13,0,3
+scrapy/utils/__init__.py,production code,.py,0,0,0
+scrapy/utils/_compression.py,production code,.py,73,4,15
+scrapy/utils/_deps_compat.py,production code,.py,16,5,5
+scrapy/utils/_download_handlers.py,production code,.py,120,8,26
+scrapy/utils/_remote_control.py,production code,.py,67,11,19
+scrapy/utils/asyncgen.py,production code,.py,15,1,6
+scrapy/utils/asyncio.py,production code,.py,154,132,81
+scrapy/utils/benchserver.py,production code,.py,36,2,12
+scrapy/utils/boto.py,production code,.py,11,4,7
+scrapy/utils/conf.py,production code,.py,152,20,28
+scrapy/utils/console.py,production code,.py,95,22,27
+scrapy/utils/curl.py,production code,.py,95,18,31
+scrapy/utils/datatypes.py,production code,.py,78,28,35
+scrapy/utils/decorators.py,production code,.py,111,11,41
+scrapy/utils/defer.py,production code,.py,324,173,107
+scrapy/utils/deprecate.py,production code,.py,114,86,47
+scrapy/utils/display.py,production code,.py,29,7,15
+scrapy/utils/engine.py,production code,.py,38,3,12
+scrapy/utils/ftp.py,production code,.py,39,10,5
+scrapy/utils/gz.py,production code,.py,26,7,8
+scrapy/utils/httpobj.py,production code,.py,13,11,8
+scrapy/utils/iterators.py,production code,.py,144,14,31
+scrapy/utils/job.py,production code,.py,12,0,4
+scrapy/utils/log.py,production code,.py,211,55,69
+scrapy/utils/misc.py,production code,.py,196,56,59
+scrapy/utils/ossignal.py,production code,.py,21,7,5
+scrapy/utils/project.py,production code,.py,96,26,24
+scrapy/utils/python.py,production code,.py,214,103,87
+scrapy/utils/reactor.py,production code,.py,150,46,50
+scrapy/utils/reactorless.py,production code,.py,33,20,17
+scrapy/utils/request.py,production code,.py,143,75,51
+scrapy/utils/response.py,production code,.py,79,43,32
+scrapy/utils/serialize.py,production code,.py,24,0,4
+scrapy/utils/signal.py,production code,.py,168,30,30
+scrapy/utils/sitemap.py,production code,.py,103,8,26
+scrapy/utils/spider.py,production code,.py,85,14,33
+scrapy/utils/ssl.py,production code,.py,178,25,56
+scrapy/utils/template.py,production code,.py,18,10,16
+scrapy/utils/test.py,production code,.py,73,25,24
+scrapy/utils/trackref.py,production code,.py,47,30,22
+scrapy/utils/url.py,production code,.py,118,19,31
+scrapy/utils/versions.py,production code,.py,24,0,8
+sep/README.rst,other,.rst,5,0,2
+sep/sep-001.rst,other,.rst,194,0,81
+sep/sep-002.rst,other,.rst,79,0,37
+sep/sep-003.rst,other,.rst,126,0,46
+sep/sep-004.rst,other,.rst,64,0,24
+sep/sep-005.rst,other,.rst,95,0,50
+sep/sep-006.rst,other,.rst,55,0,21
+sep/sep-007.rst,other,.rst,89,0,48
+sep/sep-008.rst,other,.rst,83,0,29
+sep/sep-009.rst,other,.rst,109,0,31
+sep/sep-010.rst,other,.rst,45,0,25
+sep/sep-011.rst,other,.rst,27,0,9
+sep/sep-012.rst,other,.rst,63,0,29
+sep/sep-013.rst,other,.rst,148,0,40
+sep/sep-014.rst,other,.rst,517,0,147
+sep/sep-015.rst,other,.rst,44,0,13
+sep/sep-016.rst,other,.rst,225,0,75
+sep/sep-017.rst,other,.rst,80,0,29
+sep/sep-018.rst,other,.rst,506,0,154
+sep/sep-019.rst,other,.rst,237,0,92
+sep/sep-020.rst,other,.rst,159,0,48
+tests/AsyncCrawlerProcess/args_settings.py,tests,.py,17,0,8
+tests/AsyncCrawlerProcess/asyncio_custom_loop.py,tests,.py,15,0,5
+tests/AsyncCrawlerProcess/asyncio_custom_loop_custom_settings_different.py,tests,.py,18,0,5
+tests/AsyncCrawlerProcess/asyncio_custom_loop_custom_settings_same.py,tests,.py,18,0,5
+tests/AsyncCrawlerProcess/asyncio_deferred_signal.py,tests,.py,36,0,12
+tests/AsyncCrawlerProcess/asyncio_enabled_no_reactor.py,tests,.py,20,0,7
+tests/AsyncCrawlerProcess/asyncio_enabled_reactor.py,tests,.py,41,0,12
+tests/AsyncCrawlerProcess/asyncio_enabled_reactor_different_loop.py,tests,.py,21,0,8
+tests/AsyncCrawlerProcess/asyncio_enabled_reactor_same_loop.py,tests,.py,23,0,8
+tests/AsyncCrawlerProcess/asyncio_enabled_reactor_same_loop_default.py,tests,.py,23,0,8
+tests/AsyncCrawlerProcess/caching_hostname_resolver.py,tests,.py,24,3,9
+tests/AsyncCrawlerProcess/caching_hostname_resolver_ipv6.py,tests,.py,15,4,6
+tests/AsyncCrawlerProcess/default_name_resolver.py,tests,.py,10,5,6
+tests/AsyncCrawlerProcess/dns_resolver_deprecated.py,tests,.py,20,4,7
+tests/AsyncCrawlerProcess/multi.py,tests,.py,11,0,6
+tests/AsyncCrawlerProcess/reactor_default.py,tests,.py,11,0,7
+tests/AsyncCrawlerProcess/reactorless_custom_settings.py,tests,.py,26,0,10
+tests/AsyncCrawlerProcess/reactorless_datauri.py,tests,.py,11,0,7
+tests/AsyncCrawlerProcess/reactorless_import_hook.py,tests,.py,11,0,7
+tests/AsyncCrawlerProcess/reactorless_import_hook_multiple.py,tests,.py,19,0,10
+tests/AsyncCrawlerProcess/reactorless_import_hook_uninstall.py,tests,.py,18,0,11
+tests/AsyncCrawlerProcess/reactorless_reactor.py,tests,.py,4,0,2
+tests/AsyncCrawlerProcess/reactorless_simple.py,tests,.py,12,0,6
+tests/AsyncCrawlerProcess/reactorless_sleeping.py,tests,.py,12,0,8
+tests/AsyncCrawlerProcess/reactorless_telnetconsole_disabled.py,tests,.py,15,0,6
+tests/AsyncCrawlerProcess/reactorless_telnetconsole_enabled.py,tests,.py,15,0,6
+tests/AsyncCrawlerProcess/reactorless_then_reactor.py,tests,.py,13,0,6
+tests/AsyncCrawlerProcess/simple.py,tests,.py,12,0,6
+tests/AsyncCrawlerProcess/sleeping.py,tests,.py,12,0,8
+tests/AsyncCrawlerProcess/twisted_reactor_asyncio.py,tests,.py,11,0,4
+tests/AsyncCrawlerProcess/twisted_reactor_custom_settings.py,tests,.py,10,0,4
+tests/AsyncCrawlerProcess/twisted_reactor_custom_settings_same.py,tests,.py,16,0,6
+tests/AsyncCrawlerProcess/twisted_reactor_custom_settings_select.py,tests,.py,21,0,9
+tests/AsyncCrawlerRunner/custom_loop_different.py,tests,.py,22,0,9
+tests/AsyncCrawlerRunner/custom_loop_same.py,tests,.py,22,0,9
+tests/AsyncCrawlerRunner/multi_parallel.py,tests,.py,20,0,8
+tests/AsyncCrawlerRunner/multi_seq.py,tests,.py,19,0,8
+tests/AsyncCrawlerRunner/no_reactor.py,tests,.py,14,0,8
+tests/AsyncCrawlerRunner/reactorless_custom_settings.py,tests,.py,19,0,8
+tests/AsyncCrawlerRunner/reactorless_datauri.py,tests,.py,15,0,9
+tests/AsyncCrawlerRunner/reactorless_reactor.py,tests,.py,16,0,8
+tests/AsyncCrawlerRunner/reactorless_simple.py,tests,.py,16,0,8
+tests/AsyncCrawlerRunner/simple.py,tests,.py,20,0,8
+tests/AsyncCrawlerRunner/simple_default_reactor.py,tests,.py,16,0,8
+tests/CrawlerProcess/args_settings.py,tests,.py,17,0,8
+tests/CrawlerProcess/asyncio_custom_loop.py,tests,.py,15,0,5
+tests/CrawlerProcess/asyncio_deferred_signal.py,tests,.py,36,0,12
+tests/CrawlerProcess/asyncio_enabled_no_reactor.py,tests,.py,20,0,7
+tests/CrawlerProcess/asyncio_enabled_reactor.py,tests,.py,50,0,13
+tests/CrawlerProcess/asyncio_enabled_reactor_different_loop.py,tests,.py,23,0,8
+tests/CrawlerProcess/asyncio_enabled_reactor_same_loop.py,tests,.py,24,0,8
+tests/CrawlerProcess/caching_hostname_resolver.py,tests,.py,24,3,9
+tests/CrawlerProcess/caching_hostname_resolver_ipv6.py,tests,.py,15,4,6
+tests/CrawlerProcess/default_name_resolver.py,tests,.py,10,5,6
+tests/CrawlerProcess/dns_resolver_deprecated.py,tests,.py,20,4,7
+tests/CrawlerProcess/multi.py,tests,.py,11,0,6
+tests/CrawlerProcess/reactor_default.py,tests,.py,13,0,7
+tests/CrawlerProcess/reactor_default_twisted_reactor_select.py,tests,.py,17,0,7
+tests/CrawlerProcess/reactor_select.py,tests,.py,14,0,8
+tests/CrawlerProcess/reactor_select_subclass_twisted_reactor_select.py,tests,.py,22,0,11
+tests/CrawlerProcess/reactor_select_twisted_reactor_select.py,tests,.py,16,0,8
+tests/CrawlerProcess/reactorless.py,tests,.py,2,0,1
+tests/CrawlerProcess/simple.py,tests,.py,12,0,6
+tests/CrawlerProcess/sleeping.py,tests,.py,16,0,10
+tests/CrawlerProcess/twisted_reactor_asyncio.py,tests,.py,11,0,4
+tests/CrawlerProcess/twisted_reactor_custom_settings.py,tests,.py,10,0,4
+tests/CrawlerProcess/twisted_reactor_custom_settings_conflict.py,tests,.py,19,0,7
+tests/CrawlerProcess/twisted_reactor_custom_settings_same.py,tests,.py,16,0,6
+tests/CrawlerProcess/twisted_reactor_poll.py,tests,.py,11,0,4
+tests/CrawlerProcess/twisted_reactor_select.py,tests,.py,11,0,4
+tests/CrawlerRunner/change_reactor.py,tests,.py,19,0,13
+tests/CrawlerRunner/custom_loop_different.py,tests,.py,20,0,9
+tests/CrawlerRunner/custom_loop_same.py,tests,.py,20,0,9
+tests/CrawlerRunner/explicit_default_reactor.py,tests,.py,19,0,9
+tests/CrawlerRunner/ip_address.py,tests,.py,45,2,19
+tests/CrawlerRunner/multi_parallel.py,tests,.py,18,0,8
+tests/CrawlerRunner/multi_seq.py,tests,.py,19,0,8
+tests/CrawlerRunner/no_reactor.py,tests,.py,13,0,6
+tests/CrawlerRunner/reactorless.py,tests,.py,2,0,1
+tests/CrawlerRunner/simple.py,tests,.py,18,0,8
+tests/__init__.py,tests,.py,15,13,10
+tests/benchmarks/__init__.py,tests,.py,38,18,17
+tests/benchmarks/conftest.py,tests,.py,14,3,10
+tests/benchmarks/test_crawl.py,tests,.py,216,80,81
+tests/benchmarks/test_httpcompression.py,tests,.py,110,31,38
+tests/benchmarks/test_urls.py,tests,.py,89,30,37
+tests/benchmarks/urls.txt,tests,.txt,111,0,19
+tests/ignores.txt,tests,.txt,4,0,0
+tests/keys/__init__.py,tests,.py,59,1,5
+tests/keys/example-com.cert.pem,tests,.pem,26,0,0
+tests/keys/example-com.conf,tests,.conf,66,0,18
+tests/keys/example-com.gen.README,tests,.readme,23,0,0
+tests/keys/example-com.key.pem,tests,.pem,28,0,0
+tests/keys/localhost-ip.gen.README,tests,.readme,20,0,0
+tests/keys/localhost.gen.README,tests,.readme,20,0,0
+tests/keys/localhost.ip.crt,tests,.crt,20,0,0
+tests/keys/localhost.ip.key,tests,.key,28,0,0
+tests/keys/mitmproxy-ca.pem,tests,.pem,47,0,0
+tests/keys/mitmproxy-dhparam.pem,tests,.pem,13,0,1
+tests/mocks/__init__.py,tests,.py,0,0,0
+tests/mocks/dummydbm.py,tests,.py,9,7,11
+tests/mockserver/__init__.py,tests,.py,0,0,0
+tests/mockserver/dns.py,tests,.py,62,6,23
+tests/mockserver/ftp.py,tests,.py,79,8,18
+tests/mockserver/http.py,tests,.py,113,0,15
+tests/mockserver/http_base.py,tests,.py,128,2,27
+tests/mockserver/http_resources.py,tests,.py,371,90,138
+tests/mockserver/mitm_proxy.py,tests,.py,84,19,13
+tests/mockserver/mitm_proxy_addon.py,tests,.py,4,1,0
+tests/mockserver/proxy_echo.py,tests,.py,8,1,8
+tests/mockserver/simple_https.py,tests,.py,48,1,16
+tests/mockserver/utils.py,tests,.py,42,3,10
+tests/pipelines.py,tests,.py,8,3,5
+tests/sample_data/books/book.html,tests,.html,153,0,208
+tests/sample_data/books/listing.html,tests,.html,857,0,1383
+tests/sample_data/compressed/feed-sample1.tar,tests,.tar,100,0,1
+tests/sample_data/compressed/feed-sample1.xml,tests,.xml,99,0,1
+tests/sample_data/compressed/unexpected-eof-output.txt,tests,.txt,1,0,0
+tests/sample_data/feeds/feed-sample1.xml,tests,.xml,99,0,1
+tests/sample_data/feeds/feed-sample2.xml,tests,.xml,100,0,0
+tests/sample_data/feeds/feed-sample3.csv,tests,.csv,6,0,0
+tests/sample_data/feeds/feed-sample6.csv,tests,.csv,6,0,0
+tests/sample_data/link_extractor/linkextractor.html,tests,.html,22,0,1
+tests/sample_data/link_extractor/linkextractor_latin1.html,tests,.html,19,0,1
+tests/sample_data/link_extractor/linkextractor_no_href.html,tests,.html,24,0,2
+tests/sample_data/link_extractor/linkextractor_noenc.html,tests,.html,15,0,2
+tests/sample_data/test_site/index.html,tests,.html,14,0,1
+tests/sample_data/test_site/item1.html,tests,.html,13,0,1
+tests/sample_data/test_site/item2.html,tests,.html,13,0,1
+tests/spiders.py,tests,.py,498,18,164
+tests/test_addons.py,tests,.py,206,2,35
+tests/test_closespider.py,tests,.py,99,0,14
+tests/test_cmdline/__init__.py,tests,.py,59,0,13
+tests/test_cmdline/extensions.py,tests,.py,2,0,0
+tests/test_cmdline/settings.py,tests,.py,11,0,3
+tests/test_cmdline_crawl_with_pipeline/__init__.py,tests,.py,16,1,7
+tests/test_cmdline_crawl_with_pipeline/scrapy.cfg,tests,.cfg,2,0,0
+tests/test_cmdline_crawl_with_pipeline/test_spider/__init__.py,tests,.py,0,0,0
+tests/test_cmdline_crawl_with_pipeline/test_spider/pipelines.py,tests,.py,10,0,4
+tests/test_cmdline_crawl_with_pipeline/test_spider/settings.py,tests,.py,2,0,0
+tests/test_cmdline_crawl_with_pipeline/test_spider/spiders/__init__.py,tests,.py,0,0,0
+tests/test_cmdline_crawl_with_pipeline/test_spider/spiders/exception.py,tests,.py,8,0,4
+tests/test_cmdline_crawl_with_pipeline/test_spider/spiders/normal.py,tests,.py,8,0,4
+tests/test_command_check.py,tests,.py,299,0,37
+tests/test_command_crawl.py,tests,.py,143,0,26
+tests/test_command_fetch.py,tests,.py,61,0,17
+tests/test_command_genspider.py,tests,.py,252,11,29
+tests/test_command_parse.py,tests,.py,670,11,92
+tests/test_command_runspider.py,tests,.py,373,7,72
+tests/test_command_shell.py,tests,.py,324,32,56
+tests/test_command_startproject.py,tests,.py,233,16,44
+tests/test_command_version.py,tests,.py,21,0,4
+tests/test_commands.py,tests,.py,712,75,160
+tests/test_contracts.py,tests,.py,562,153,208
+tests/test_core_downloader.py,tests,.py,538,38,85
+tests/test_core_scraper.py,tests,.py,103,5,31
+tests/test_crawl.py,tests,.py,873,25,116
+tests/test_crawler.py,tests,.py,692,40,153
+tests/test_crawler_runners.py,tests,.py,218,0,52
+tests/test_crawler_subprocess.py,tests,.py,511,36,87
+tests/test_dependencies.py,tests,.py,18,6,7
+tests/test_downloader_handler_aiohttp.py,tests,.py,81,0,41
+tests/test_downloader_handler_httpx.py,tests,.py,197,5,61
+tests/test_downloader_handler_twisted_ftp.py,tests,.py,166,6,37
+tests/test_downloader_handler_twisted_http11.py,tests,.py,158,5,59
+tests/test_downloader_handler_twisted_http2.py,tests,.py,181,16,48
+tests/test_downloader_handlers.py,tests,.py,382,23,64
+tests/test_downloadermiddleware.py,tests,.py,273,24,67
+tests/test_downloadermiddleware_cookies.py,tests,.py,708,62,113
+tests/test_downloadermiddleware_defaultheaders.py,tests,.py,28,0,8
+tests/test_downloadermiddleware_downloadtimeout.py,tests,.py,38,0,14
+tests/test_downloadermiddleware_httpauth.py,tests,.py,140,3,36
+tests/test_downloadermiddleware_httpcache.py,tests,.py,678,75,117
+tests/test_downloadermiddleware_httpcompression.py,tests,.py,690,24,100
+tests/test_downloadermiddleware_httpproxy.py,tests,.py,369,33,53
+tests/test_downloadermiddleware_offsite.py,tests,.py,271,0,41
+tests/test_downloadermiddleware_redirect.py,tests,.py,423,5,52
+tests/test_downloadermiddleware_redirect_metarefresh.py,tests,.py,146,4,22
+tests/test_downloadermiddleware_retry.py,tests,.py,649,11,73
+tests/test_downloadermiddleware_robotstxt.py,tests,.py,244,2,46
+tests/test_downloadermiddleware_stats.py,tests,.py,42,2,16
+tests/test_downloadermiddleware_useragent.py,tests,.py,29,0,9
+tests/test_downloaderslotssettings.py,tests,.py,145,5,26
+tests/test_dupefilters.py,tests,.py,220,4,49
+tests/test_engine.py,tests,.py,343,5,77
+tests/test_engine_close_spider.py,tests,.py,124,2,27
+tests/test_engine_download.py,tests,.py,106,9,23
+tests/test_engine_loop.py,tests,.py,373,33,111
+tests/test_engine_stop_download_bytes.py,tests,.py,53,3,9
+tests/test_engine_stop_download_headers.py,tests,.py,54,0,10
+tests/test_exporters.py,tests,.py,583,11,130
+tests/test_extension_debug.py,tests,.py,110,3,25
+tests/test_extension_memdebug.py,tests,.py,34,1,15
+tests/test_extension_memusage.py,tests,.py,126,8,39
+tests/test_extension_periodic_log.py,tests,.py,199,19,44
+tests/test_extension_remote_control.py,tests,.py,511,7,116
+tests/test_extension_statsmailer.py,tests,.py,72,1,24
+tests/test_extension_telnet.py,tests,.py,113,4,31
+tests/test_extension_throttle.py,tests,.py,272,3,48
+tests/test_feedexport.py,tests,.py,1208,41,176
+tests/test_feedexport_batch.py,tests,.py,438,13,47
+tests/test_feedexport_postprocess.py,tests,.py,477,5,75
+tests/test_feedexport_storages.py,tests,.py,546,4,84
+tests/test_feedexport_uri_params.py,tests,.py,127,0,31
+tests/test_http2_client_protocol.py,tests,.py,642,22,134
+tests/test_http_cookies.py,tests,.py,94,1,25
+tests/test_http_headers.py,tests,.py,139,0,45
+tests/test_http_request.py,tests,.py,34,0,9
+tests/test_http_request_form.py,tests,.py,960,12,98
+tests/test_http_request_json.py,tests,.py,154,10,25
+tests/test_http_response.py,tests,.py,5,0,3
+tests/test_http_response_text.py,tests,.py,580,32,94
+tests/test_item.py,tests,.py,244,12,79
+tests/test_link.py,tests,.py,47,0,18
+tests/test_linkextractors.py,tests,.py,795,36,94
+tests/test_loader.py,tests,.py,426,18,125
+tests/test_logformatter.py,tests,.py,251,8,48
+tests/test_logstats.py,tests,.py,71,6,19
+tests/test_mail.py,tests,.py,134,0,30
+tests/test_middleware.py,tests,.py,77,0,33
+tests/test_pipeline_crawl.py,tests,.py,202,10,45
+tests/test_pipeline_files.py,tests,.py,1023,75,162
+tests/test_pipeline_images.py,tests,.py,501,63,92
+tests/test_pipeline_media.py,tests,.py,490,59,100
+tests/test_pipelines.py,tests,.py,470,9,78
+tests/test_poet.py,tests,.py,13,2,5
+tests/test_pqueues.py,tests,.py,297,7,46
+tests/test_request_attribute_binding.py,tests,.py,177,23,40
+tests/test_request_cb_kwargs.py,tests,.py,146,15,30
+tests/test_request_dict.py,tests,.py,175,2,63
+tests/test_request_left.py,tests,.py,48,0,16
+tests/test_resolver.py,tests,.py,101,4,36
+tests/test_response_dict.py,tests,.py,71,7,20
+tests/test_responsetypes.py,tests,.py,114,4,17
+tests/test_robotstxt_interface.py,tests,.py,158,5,43
+tests/test_scheduler.py,tests,.py,272,14,74
+tests/test_scheduler_base.py,tests,.py,128,0,43
+tests/test_scrapy__getattr__.py,tests,.py,13,0,5
+tests/test_selector.py,tests,.py,243,7,29
+tests/test_settings/__init__.py,tests,.py,1162,22,133
+tests/test_settings/default_settings.py,tests,.py,2,0,1
+tests/test_signalmanager.py,tests,.py,14,0,6
+tests/test_signals.py,tests,.py,43,0,16
+tests/test_spider.py,tests,.py,165,3,51
+tests/test_spider_crawl.py,tests,.py,292,0,56
+tests/test_spider_sitemap.py,tests,.py,424,8,71
+tests/test_spider_start.py,tests,.py,96,0,38
+tests/test_spiderloader/__init__.py,tests,.py,183,4,51
+tests/test_spiderloader/spiders_from_addons/__init__.py,tests,.py,0,0,0
+tests/test_spiderloader/spiders_from_addons/spider0.py,tests,.py,4,0,2
+tests/test_spiderloader/test_spiders/__init__.py,tests,.py,0,0,0
+tests/test_spiderloader/test_spiders/nested/__init__.py,tests,.py,0,0,0
+tests/test_spiderloader/test_spiders/nested/spider4.py,tests,.py,7,0,3
+tests/test_spiderloader/test_spiders/spider0.py,tests,.py,3,0,2
+tests/test_spiderloader/test_spiders/spider1.py,tests,.py,4,0,2
+tests/test_spiderloader/test_spiders/spider2.py,tests,.py,4,0,2
+tests/test_spiderloader/test_spiders/spider3.py,tests,.py,7,0,3
+tests/test_spidermiddleware.py,tests,.py,383,25,108
+tests/test_spidermiddleware_base.py,tests,.py,117,0,19
+tests/test_spidermiddleware_depth.py,tests,.py,99,2,36
+tests/test_spidermiddleware_httperror.py,tests,.py,206,4,50
+tests/test_spidermiddleware_metacopy.py,tests,.py,100,0,28
+tests/test_spidermiddleware_output_chain.py,tests,.py,335,69,86
+tests/test_spidermiddleware_process_start.py,tests,.py,92,1,41
+tests/test_spidermiddleware_referer.py,tests,.py,961,71,130
+tests/test_spidermiddleware_start.py,tests,.py,31,1,9
+tests/test_spidermiddleware_urllength.py,tests,.py,43,0,20
+tests/test_spiderstate.py,tests,.py,38,2,13
+tests/test_squeues.py,tests,.py,204,3,66
+tests/test_squeues_request.py,tests,.py,192,6,46
+tests/test_stats.py,tests,.py,181,1,28
+tests/test_toplevel.py,tests,.py,19,0,16
+tests/test_utils_asyncgen.py,tests,.py,13,0,5
+tests/test_utils_asyncio.py,tests,.py,140,6,24
+tests/test_utils_benchserver.py,tests,.py,30,0,10
+tests/test_utils_conf.py,tests,.py,170,3,26
+tests/test_utils_console.py,tests,.py,155,19,42
+tests/test_utils_curl.py,tests,.py,254,8,25
+tests/test_utils_datatypes.py,tests,.py,321,7,73
+tests/test_utils_decorators.py,tests,.py,125,2,32
+tests/test_utils_defer.py,tests,.py,386,29,95
+tests/test_utils_deprecate.py,tests,.py,238,1,69
+tests/test_utils_display.py,tests,.py,90,4,26
+tests/test_utils_gz.py,tests,.py,45,0,18
+tests/test_utils_httpobj.py,tests,.py,17,0,5
+tests/test_utils_iterators.py,tests,.py,459,4,62
+tests/test_utils_job.py,tests,.py,15,0,9
+tests/test_utils_log.py,tests,.py,413,3,88
+tests/test_utils_misc/__init__.py,tests,.py,141,5,30
+tests/test_utils_misc/test_return_with_argument_inside_generator.py,tests,.py,199,15,67
+tests/test_utils_misc/test_walk_modules/__init__.py,tests,.py,0,0,0
+tests/test_utils_misc/test_walk_modules/mod/__init__.py,tests,.py,0,0,0
+tests/test_utils_misc/test_walk_modules/mod/mod0.py,tests,.py,0,0,0
+tests/test_utils_misc/test_walk_modules/mod1.py,tests,.py,0,0,0
+tests/test_utils_ossignal.py,tests,.py,38,0,16
+tests/test_utils_project.py,tests,.py,148,6,47
+tests/test_utils_python.py,tests,.py,206,5,54
+tests/test_utils_reactor.py,tests,.py,78,1,21
+tests/test_utils_reactorless.py,tests,.py,41,0,9
+tests/test_utils_remote_control.py,tests,.py,88,6,21
+tests/test_utils_request.py,tests,.py,414,10,59
+tests/test_utils_response.py,tests,.py,297,18,56
+tests/test_utils_serialize.py,tests,.py,76,0,14
+tests/test_utils_signal.py,tests,.py,135,1,37
+tests/test_utils_sitemap.py,tests,.py,297,14,40
+tests/test_utils_spider.py,tests,.py,66,0,22
+tests/test_utils_ssl.py,tests,.py,54,2,13
+tests/test_utils_template.py,tests,.py,18,0,10
+tests/test_utils_trackref.py,tests,.py,92,18,41
+tests/test_utils_url.py,tests,.py,413,6,41
+tests/test_zz_resources.py,tests,.py,33,16,14
+tests/utils/__init__.py,tests,.py,32,2,17
+tests/utils/bases/__init__.py,tests,.py,0,0,0
+tests/utils/bases/commands.py,tests,.py,37,9,15
+tests/utils/bases/download_handlers_http.py,tests,.py,1524,126,173
+tests/utils/bases/engine.py,tests,.py,138,3,19
+tests/utils/bases/feedexport.py,tests,.py,118,6,27
+tests/utils/bases/http_request.py,tests,.py,379,50,80
+tests/utils/bases/http_response.py,tests,.py,318,18,65
+tests/utils/bases/redirect.py,tests,.py,735,25,228
+tests/utils/bases/spider.py,tests,.py,106,2,23
+tests/utils/cloud.py,tests,.py,11,3,7
+tests/utils/cmdline.py,tests,.py,49,10,17
+tests/utils/crawl.py,tests,.py,18,2,7
+tests/utils/decorators.py,tests,.py,35,20,22
+tests/utils/downloader.py,tests,.py,23,0,12
+tests/utils/engine.py,tests,.py,139,2,43
+tests/utils/feedexport.py,tests,.py,18,0,11
+tests/utils/media_pipelines.py,tests,.py,14,2,5
+tests/utils/redirect.py,tests,.py,33,5,2
+tests/utils/robotstxt.py,tests,.py,4,0,3
+tests_typing/test_http_request.mypy-testing,other,.mypy-testing,62,0,18
+tests_typing/test_http_response.mypy-testing,other,.mypy-testing,47,0,12
+tests_typing/test_spiders.mypy-testing,other,.mypy-testing,44,0,24
+tox.ini,other,.ini,380,0,31

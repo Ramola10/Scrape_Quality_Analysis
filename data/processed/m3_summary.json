@@ -1,0 +1,127 @@
+{
+  "scrapy_version": "2.19.0",
+  "scrapy_commit": "8026deeaac371a5d9a3edbe4886d58f61139d464",
+  "window_start": "2023-09-11",
+  "window_end": "2026-09-10",
+  "years": 3.0,
+  "bulk_threshold_files": 30,
+  "files": 179,
+  "functions": 1837,
+  "mean_cc_per_function": 2.61,
+  "median_cc_per_function": 2.0,
+  "functions_cc_over_10": 29,
+  "functions_cc_over_20": 1,
+  "most_complex_functions": [
+    {
+      "file": "scrapy/core/downloader/handlers/_base_streaming.py",
+      "function": "BaseStreamingDownloadHandler._read_response",
+      "cc": 21
+    },
+    {
+      "file": "scrapy/commands/check.py",
+      "function": "Command.run",
+      "cc": 16
+    },
+    {
+      "file": "scrapy/downloadermiddlewares/redirect.py",
+      "function": "RedirectMiddleware.process_response",
+      "cc": 16
+    },
+    {
+      "file": "scrapy/http/request/form.py",
+      "function": "_get_inputs",
+      "cc": 16
+    },
+    {
+      "file": "scrapy/pqueues.py",
+      "function": "DownloaderAwarePriorityQueue._next_slot",
+      "cc": 16
+    }
+  ],
+  "top10_files_share_of_all_files_pct": 5.6,
+  "top10_hotspots_share_of_revisions_pct": 19.0,
+  "top10_hotspots_share_of_cc_pct": 22.8,
+  "top10_hotspots_share_of_hotspot_score_pct": 45.6,
+  "top10_hotspots": [
+    {
+      "file": "scrapy/crawler.py",
+      "module": "engine",
+      "revisions": 55,
+      "cc_total": 162,
+      "cc_max": 12,
+      "hotspot_score": 1.0
+    },
+    {
+      "file": "scrapy/core/engine.py",
+      "module": "engine",
+      "revisions": 50,
+      "cc_total": 143,
+      "cc_max": 14,
+      "hotspot_score": 0.802
+    },
+    {
+      "file": "scrapy/extensions/feedexport.py",
+      "module": "extensions",
+      "revisions": 43,
+      "cc_total": 131,
+      "cc_max": 11,
+      "hotspot_score": 0.632
+    },
+    {
+      "file": "scrapy/core/scraper.py",
+      "module": "engine",
+      "revisions": 41,
+      "cc_total": 89,
+      "cc_max": 10,
+      "hotspot_score": 0.41
+    },
+    {
+      "file": "scrapy/core/downloader/handlers/http11.py",
+      "module": "downloader",
+      "revisions": 37,
+      "cc_total": 97,
+      "cc_max": 9,
+      "hotspot_score": 0.403
+    },
+    {
+      "file": "scrapy/pipelines/files.py",
+      "module": "item_processing",
+      "revisions": 33,
+      "cc_total": 98,
+      "cc_max": 9,
+      "hotspot_score": 0.363
+    },
+    {
+      "file": "scrapy/utils/python.py",
+      "module": "utilities",
+      "revisions": 29,
+      "cc_total": 83,
+      "cc_max": 12,
+      "hotspot_score": 0.27
+    },
+    {
+      "file": "scrapy/utils/defer.py",
+      "module": "utilities",
+      "revisions": 33,
+      "cc_total": 69,
+      "cc_max": 8,
+      "hotspot_score": 0.256
+    },
+    {
+      "file": "scrapy/commands/parse.py",
+      "module": "cli",
+      "revisions": 24,
+      "cc_total": 91,
+      "cc_max": 12,
+      "hotspot_score": 0.245
+    },
+    {
+      "file": "scrapy/settings/__init__.py",
+      "module": "framework_api",
+      "revisions": 16,
+      "cc_total": 131,
+      "cc_max": 7,
+      "hotspot_score": 0.235
+    }
+  ]
+}

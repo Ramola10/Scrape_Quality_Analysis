@@ -1,0 +1,10 @@
+src_mod,cli,engine,downloader,downloader_mw,spiders,item_processing,extensions,framework_api,utilities
+cli,0,7,0,0,3,0,1,28,32
+engine,0,0,0,0,1,1,0,19,33
+downloader,0,0,0,0,0,0,0,37,45
+downloader_mw,0,0,0,0,1,0,0,31,39
+spiders,0,0,0,0,0,0,0,18,28
+item_processing,0,0,0,0,1,0,0,10,26
+extensions,0,0,0,0,0,0,0,38,32
+framework_api,0,0,0,0,4,1,0,0,32
+utilities,0,1,0,0,2,1,0,26,0

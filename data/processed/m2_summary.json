@@ -1,0 +1,92 @@
+{
+  "scrapy_version": "2.19.0",
+  "scrapy_commit": "8026deeaac371a5d9a3edbe4886d58f61139d464",
+  "window_start": "2023-09-11",
+  "window_end": "2026-09-10",
+  "years": 3.0,
+  "bulk_threshold_files": 30,
+  "commits_in_window": 1227,
+  "commits_touching_production_code": 653,
+  "bulk_commits_excluded": 9,
+  "commits_analysed": 644,
+  "multi_module_commits": 245,
+  "multi_module_pct": 38.0,
+  "commits_per_module": {
+    "utilities": 255,
+    "framework_api": 179,
+    "engine": 158,
+    "downloader": 135,
+    "spiders": 97,
+    "extensions": 93,
+    "downloader_mw": 88,
+    "item_processing": 87,
+    "cli": 81
+  },
+  "top_module_pairs": [
+    {
+      "module_a": "framework_api",
+      "module_b": "utilities",
+      "commits_a": 179,
+      "commits_b": 255,
+      "shared_commits": 83,
+      "coupling_degree_pct": 38.2
+    },
+    {
+      "module_a": "engine",
+      "module_b": "framework_api",
+      "commits_a": 158,
+      "commits_b": 179,
+      "shared_commits": 56,
+      "coupling_degree_pct": 33.2
+    },
+    {
+      "module_a": "engine",
+      "module_b": "utilities",
+      "commits_a": 158,
+      "commits_b": 255,
+      "shared_commits": 65,
+      "coupling_degree_pct": 31.5
+    },
+    {
+      "module_a": "downloader",
+      "module_b": "utilities",
+      "commits_a": 135,
+      "commits_b": 255,
+      "shared_commits": 60,
+      "coupling_degree_pct": 30.8
+    },
+    {
+      "module_a": "downloader",
+      "module_b": "framework_api",
+      "commits_a": 135,
+      "commits_b": 179,
+      "shared_commits": 48,
+      "coupling_degree_pct": 30.6
+    },
+    {
+      "module_a": "downloader",
+      "module_b": "engine",
+      "commits_a": 135,
+      "commits_b": 158,
+      "shared_commits": 43,
+      "coupling_degree_pct": 29.4
+    },
+    {
+      "module_a": "extensions",
+      "module_b": "framework_api",
+      "commits_a": 93,
+      "commits_b": 179,
+      "shared_commits": 39,
+      "coupling_degree_pct": 28.7
+    },
+    {
+      "module_a": "cli",
+      "module_b": "engine",
+      "commits_a": 81,
+      "commits_b": 158,
+      "shared_commits": 34,
+      "coupling_degree_pct": 28.5
+    }
+  ],
+  "cross_module_file_pairs_found": 94
+}

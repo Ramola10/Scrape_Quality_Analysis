@@ -1,0 +1,50 @@
+{
+  "_comment": "Decomposition of Scrapy's production code (scrapy/) into modules for report section 1.3. A file belongs to the module with the LONGEST matching path prefix. 'allowed' lists which other modules a module is <<allowed to use>> according to the intended architecture (central engine + plug-in components + shared framework API + utilities).",
+  "modules": {
+    "cli": {
+      "label": "CLI & Tools",
+      "paths": ["scrapy/commands/", "scrapy/cmdline.py", "scrapy/shell.py", "scrapy/templates/", "scrapy/__main__.py"],
+      "allowed": ["engine", "downloader", "downloader_mw", "spiders", "item_processing", "extensions", "framework_api", "utilities"]
+    },
+    "engine": {
+      "label": "Engine & Crawler",
+      "paths": ["scrapy/core/", "scrapy/crawler.py", "scrapy/pqueues.py", "scrapy/squeues.py", "scrapy/dupefilters.py", "scrapy/spiderloader.py"],
+      "allowed": ["downloader", "spiders", "item_processing", "framework_api", "utilities"]
+    },
+    "downloader": {
+      "label": "Downloader",
+      "paths": ["scrapy/core/downloader/", "scrapy/core/_http2/", "scrapy/resolver.py"],
+      "allowed": ["framework_api", "utilities"]
+    },
+    "downloader_mw": {
+      "label": "Downloader Middlewares",
+      "paths": ["scrapy/downloadermiddlewares/", "scrapy/robotstxt.py"],
+      "allowed": ["framework_api", "utilities"]
+    },
+    "spiders": {
+      "label": "Spiders & Spider MW",
+      "paths": ["scrapy/spiders/", "scrapy/spidermiddlewares/", "scrapy/linkextractors/", "scrapy/selector/", "scrapy/link.py", "scrapy/contracts/"],
+      "allowed": ["framework_api", "utilities"]
+    },
+    "item_processing": {
+      "label": "Item Processing & Export",
+      "paths": ["scrapy/pipelines/", "scrapy/exporters.py", "scrapy/item.py", "scrapy/loader/"],
+      "allowed": ["framework_api", "utilities"]
+    },
+    "extensions": {
+      "label": "Extensions",
+      "paths": ["scrapy/extensions/"],
+      "allowed": ["framework_api", "utilities"]
+    },
+    "framework_api": {
+      "label": "Framework API (http, settings, signals)",
+      "paths": ["scrapy/http/", "scrapy/settings/", "scrapy/signals.py", "scrapy/signalmanager.py", "scrapy/statscollectors.py", "scrapy/extension.py", "scrapy/middleware.py", "scrapy/addons.py", "scrapy/interfaces.py", "scrapy/logformatter.py", "scrapy/mail.py", "scrapy/responsetypes.py", "scrapy/exceptions.py", "scrapy/__init__.py"],
+      "allowed": ["utilities"]
+    },
+    "utilities": {
+      "label": "Utilities",
+      "paths": ["scrapy/utils/"],
+      "allowed": []
+    }
+  }
+}

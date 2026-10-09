@@ -1,0 +1,9 @@
+# Analysis tooling (install inside the venv: pip install -r requirements.txt)
+pandas>=2.0
+matplotlib>=3.7
+pydriller>=2.6
+radon>=6.0
+lizard>=1.17
+tox>=4.0
+numpy>=1.24
+networkx>=3.0

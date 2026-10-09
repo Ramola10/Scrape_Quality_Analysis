@@ -1,0 +1,17 @@
+{
+  "analysed_tag": "2.19.0",
+  "analysed_commit": "8026deeaac371a5d9a3edbe4886d58f61139d464",
+  "first_commit_date": "2008-06-26",
+  "analysed_commit_date": "2026-09-10",
+  "age_years": 18.2,
+  "commits_total": 11455,
+  "commits_non_merge_by_humans": 9331,
+  "contributors_total": 708,
+  "contributors_50plus_commits": 20,
+  "top_contributor_share_pct": 19.8,
+  "top5_contributors_share_pct": 51.4,
+  "loc_production_code": 22735,
+  "loc_tests": 48645,
+  "test_to_code_ratio": 2.14,
+  "production_python_files": 179
+}

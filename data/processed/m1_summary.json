@@ -1,0 +1,43 @@
+{
+  "scrapy_version": "2.19.0",
+  "scrapy_commit": "8026deeaac371a5d9a3edbe4886d58f61139d464",
+  "production_files": 179,
+  "imports_total": 879,
+  "imports_by_kind": {
+    "runtime": 635,
+    "typing": 233,
+    "lazy": 11
+  },
+  "cross_module_imports_executed": 498,
+  "violating_imports": 37,
+  "violation_rate_pct": 7.4,
+  "violations_by_pair": {
+    "utilities -> framework_api": 26,
+    "framework_api -> spiders": 4,
+    "utilities -> spiders": 2,
+    "downloader_mw -> spiders": 1,
+    "item_processing -> spiders": 1,
+    "framework_api -> item_processing": 1,
+    "utilities -> engine": 1,
+    "utilities -> item_processing": 1
+  },
+  "typing_only_imports_that_would_violate": 93,
+  "module_cycles_runtime_imports": [
+    [
+      "engine",
+      "framework_api",
+      "item_processing",
+      "spiders",
+      "utilities"
+    ]
+  ],
+  "module_cycles_incl_lazy_imports": [
+    [
+      "engine",
+      "framework_api",
+      "item_processing",
+      "spiders",
+      "utilities"
+    ]
+  ]
+}
