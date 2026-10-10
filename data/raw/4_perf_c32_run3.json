@@ -5,6 +5,6 @@
   "unexpected_pages": 0,
   "item_scraped_count": 200,
   "downloader_response_count": 200,
-  "p95_download_latency_s": 0.5629999999655411,
+  "p95_download_latency_s": 0.1720000000204891,
   "latency_sample_count": 200
 }

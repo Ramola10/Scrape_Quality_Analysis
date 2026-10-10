@@ -87,9 +87,22 @@ def main() -> None:
         if metric != "peak_rss_mib":
             ax.set_ylim(bottom=0)
         else:
-            ax.set_ylim(bottom=80)  # Truncated axis for readability; disclose explicitly.
-            ax.text(0.01, 0.02, "Y-axis starts at 80 MiB", transform=ax.transAxes,
-                    fontsize=8, va="bottom", alpha=0.8)
+            lower = min(m - s for m, s in zip(y, sd))
+            upper = max(m + s for m, s in zip(y, sd))
+            padding = max(0.5, (upper - lower) * 0.15)
+
+            ax.set_ylim(max(0, lower - padding), upper + padding)
+
+            axis_start = ax.get_ylim()[0]
+            ax.text(
+                0.01, 0.02,
+                f"Y-axis truncated (starts at {axis_start:.1f} MiB)",
+                transform=ax.transAxes,
+                fontsize=8,
+                va="bottom",
+                alpha=0.8
+            )
+            
         fig.text(0.5, 0.01, "Mean ± sample standard deviation of 3 runs; 200 pages/run; local server delay 50 ms",
                  ha="center", fontsize=8)
         fig.tight_layout(rect=(0, 0.045, 1, 1))

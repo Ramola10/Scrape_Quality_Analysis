@@ -27,6 +27,7 @@ Three performance metrics are measured:
 - Repetitions per configuration: 3
 - Concurrency levels: 1, 8, 16, 32
 - Total benchmark runs: 12
+- Local server connection backlog: 128
 
 ## Setup
 

@@ -48,6 +48,10 @@ class LocalPageHandler(BaseHTTPRequestHandler):
     def log_message(self, format, *args):
         return  # Silence requests; metrics are written to CSV instead.
 
+class BenchmarkHTTPServer(ThreadingHTTPServer):
+    """Allow a larger backlog of pending HTTP connections."""
+    request_queue_size = 128
+    daemon_threads = True
 
 def peak_process_tree_rss(pid):
     """Snapshot RSS for Scrapy process and any subprocess children."""
@@ -142,7 +146,7 @@ def main():
     raw.mkdir(parents=True, exist_ok=True)
     processed.mkdir(parents=True, exist_ok=True)
     LocalPageHandler.delay_s = args.delay_ms / 1000.0
-    server = ThreadingHTTPServer(("127.0.0.1", 0), LocalPageHandler)
+    server = BenchmarkHTTPServer(("127.0.0.1", 0), LocalPageHandler)
     server.daemon_threads = True
     thread = threading.Thread(target=server.serve_forever, daemon=True)
     thread.start()
@@ -188,6 +192,7 @@ def main():
         "concurrency_levels": args.concurrency,
         "server_delay_ms": args.delay_ms,
         "server_host": "127.0.0.1",
+        "server_request_queue_size": server.request_queue_size,
         "benchmark_type": "controlled localhost synthetic workload",
         "scrapy_version": __import__("scrapy").__version__,
         "scrapy_source_commit": subprocess.run(["git", "-C", str(root / "scrapy-src"), "rev-parse", "HEAD"], capture_output=True, text=True).stdout.strip(),
