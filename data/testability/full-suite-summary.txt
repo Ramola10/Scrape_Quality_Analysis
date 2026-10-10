@@ -1,5 +1,1 @@
-Scrapy version: 2.19.0
-Test collection: 4910 tests
-Full-suite result: 4494 passed, 395 skipped, 22 xfailed, 0 unexpected failures
-Execution time: 709.74 seconds (11 minutes 49.74 seconds)
-Command: python -m pytest scrapy-src\tests -q --no-cov --durations=20
+Scrapy 2.19.0 - 4910 unique tests collected - 4494 passed - 395 skipped - 22 xfailed - 0 failures - 734.99 seconds - JUnit has 4911 records because one module-level skip is recorded separately 

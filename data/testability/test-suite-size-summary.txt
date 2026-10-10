@@ -1,5 +1,1 @@
-Scrapy version: 2.19.0
-Automated tests collected: 4910
-Production code lines: 22735
-Test code lines: 48645
-Test-to-code ratio: 2.14
+Scrapy 2.19.0 - 4910 unique tests collected - 22735 production-code lines - 48645 test-code lines - test-to-code ratio 2.14 

@@ -1,1 +1,1 @@
-Scrapy 2.19.0 - Coverage 88 percent - 13824 statements - 1711 missed - 4494 passed - 395 skipped - 22 xfailed - 1029.69 seconds 
+Scrapy 2.19.0 - Statement and branch coverage: 94 percent - 13643 statements - 857 missed - 3492 branches - 39 partial branches - coverage run had 2 timeout failures due to instrumentation overhead 
