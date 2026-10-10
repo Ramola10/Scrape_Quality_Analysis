@@ -1,0 +1,20 @@
+{
+  "collected_at_utc": "2026-10-10T14:02:21.365837+00:00",
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10",
+  "pages_per_run": 200,
+  "repetitions": 3,
+  "concurrency_levels": [
+    1,
+    8,
+    16,
+    32
+  ],
+  "server_delay_ms": 50.0,
+  "server_host": "127.0.0.1",
+  "benchmark_type": "controlled localhost synthetic workload",
+  "scrapy_version": "2.19.0",
+  "scrapy_source_commit": "8026deeaac371a5d9a3edbe4886d58f61139d464",
+  "cpu": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+  "logical_cpu_count": 8
+}
