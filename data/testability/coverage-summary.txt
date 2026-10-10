@@ -1,0 +1,1 @@
+Scrapy 2.19.0 - Coverage 88 percent - 13824 statements - 1711 missed - 4494 passed - 395 skipped - 22 xfailed - 1029.69 seconds 

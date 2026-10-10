@@ -1,0 +1,5 @@
+Scrapy version: 2.19.0
+Automated tests collected: 4910
+Production code lines: 22735
+Test code lines: 48645
+Test-to-code ratio: 2.14
