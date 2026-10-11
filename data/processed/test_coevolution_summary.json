@@ -1,0 +1,10 @@
+{
+  "scrapy_version": "2.19.0",
+  "scrapy_commit": "8026deeaac371a5d9a3edbe4886d58f61139d464",
+  "window_start": "2023-09-11",
+  "window_end": "2026-09-10",
+  "years": 3.0,
+  "production_changing_commits": 663,
+  "production_commits_also_changing_tests": 445,
+  "test_coevolution_pct": 67.1
+}
