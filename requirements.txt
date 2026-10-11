@@ -7,3 +7,4 @@ lizard>=1.17
 tox>=4.0
 numpy>=1.24
 networkx>=3.0
+psutil>=7.0
