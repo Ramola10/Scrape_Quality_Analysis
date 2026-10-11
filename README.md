@@ -109,8 +109,4 @@ python scripts/4_plot_performance.py
 See `README_PERFORMANCE.md`. Controlled localhost benchmark (50 ms server delay, 200 pages per
 run, 3 repetitions, concurrency 1/8/16/32, server connection backlog 128), Windows 11, Python 3.12.10.
 
-## Use of generative AI
 
-The data-collection and analysis scripts were developed with the help of a generative AI
-assistant (Claude, Anthropic), as permitted by the assignment's GenAI policy. All results were
-produced by running the scripts on the pinned Scrapy version and checked by the authors.
