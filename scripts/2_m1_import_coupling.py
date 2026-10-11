@@ -102,8 +102,44 @@ def resolve(dotted: str, files: set[str]) -> str | None:
     return None
 
 
+class ReexportResolver:
+    """Follows package re-exports, e.g. `from scrapy.http import FormRequest` resolves
+    to scrapy/http/__init__.py, which itself imports FormRequest from
+    scrapy/http/request/form.py -> the real dependency is form.py."""
+
+    def __init__(self, repo: Path, files: set[str]):
+        self.files = files
+        self.exports: dict[tuple[str, str], str] = {}
+        for f in files:
+            if not f.endswith("__init__.py"):
+                continue
+            tree = ast.parse((repo / f).read_text(encoding="utf-8"), filename=f)
+            package = f.rsplit("/", 1)[0].replace("/", ".")
+            for node in tree.body:
+                if isinstance(node, ast.ImportFrom):
+                    v = ImportVisitor(package)
+                    v.visit(node)
+                    for (dotted, _k, _l), alias in zip(v.found, node.names):
+                        target = resolve(dotted, files)
+                        if target and target != f:
+                            self.exports[(f, alias.asname or alias.name)] = target
+
+    def __call__(self, dotted: str) -> str | None:
+        target = resolve(dotted, self.files)
+        seen = set()
+        while target and target.endswith("__init__.py") and target not in seen:
+            seen.add(target)
+            name = dotted.rsplit(".", 1)[-1]
+            nxt = self.exports.get((target, name))
+            if not nxt:
+                break
+            target = nxt
+        return target
+
+
 def extract_edges(repo: Path, files: list[str]) -> pd.DataFrame:
     fileset = set(files)
+    resolver = ReexportResolver(repo, fileset)
     rows = []
     for f in files:
         # package containing the file: scrapy/a/b.py and scrapy/a/__init__.py -> "scrapy.a"
@@ -112,7 +148,7 @@ def extract_edges(repo: Path, files: list[str]) -> pd.DataFrame:
         v = ImportVisitor(package)
         v.visit(tree)
         for dotted, kind, line in v.found:
-            target = resolve(dotted, fileset)
+            target = resolver(dotted)
             if target and target != f:
                 rows.append({"source": f, "target": target, "kind": kind, "line": line,
                              "imported": dotted})

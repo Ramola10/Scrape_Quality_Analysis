@@ -1,0 +1,10 @@
+module,label,tests,total_s,median_ms,slow_pct
+cli,CLI & Tools,166,189.5,1196.5,57.2
+engine,Engine & Crawler,963,93.5,9.0,3.7
+downloader,Downloader,823,105.7,11.0,5.3
+downloader_mw,Downloader Middlewares,574,9.2,9.0,0.0
+spiders,Spiders & Spider MW,1062,11.5,2.0,0.2
+item_processing,Item Processing & Export,862,63.5,5.0,3.0
+extensions,Extensions,420,35.9,12.0,3.6
+framework_api,"Framework API (http, settings, signals, Spider base)",3623,366.4,6.0,4.3
+utilities,Utilities,3530,450.3,6.0,5.6

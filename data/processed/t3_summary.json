@@ -1,0 +1,12 @@
+{
+  "scrapy_version": "2.19.0",
+  "scrapy_commit": "8026deeaac371a5d9a3edbe4886d58f61139d464",
+  "changesets_on_main": 5542,
+  "changesets_touching_production_code": 3255,
+  "bulk_changesets_excluded": 36,
+  "with_tests_pct_all_time": 45.3,
+  "fixes_with_tests_pct_all_time": 50.5,
+  "with_tests_pct_last_3_years": 75.8,
+  "fixes_with_tests_pct_last_3_years": 81.7,
+  "pr_merges_share_last_3_years_pct": 12.1
+}

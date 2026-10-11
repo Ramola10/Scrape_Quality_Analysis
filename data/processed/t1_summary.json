@@ -1,0 +1,136 @@
+{
+  "scrapy_version": "2.19.0",
+  "scrapy_commit": "8026deeaac371a5d9a3edbe4886d58f61139d464",
+  "files_measured": 177,
+  "production_files_not_in_report": [
+    "scrapy/templates/project/module/__init__.py",
+    "scrapy/templates/project/module/spiders/__init__.py"
+  ],
+  "line_coverage_pct": 93.7,
+  "branch_coverage_pct": 93.5,
+  "statements": 13643,
+  "branches": 3492,
+  "files_below_50pct_line_coverage": 6,
+  "files_100pct_line_coverage": 132,
+  "least_covered_files": [
+    {
+      "file": "scrapy/core/_http2/protocol.py",
+      "module": "downloader",
+      "line_coverage_pct": 0.0,
+      "branch_coverage_pct": 0.0
+    },
+    {
+      "file": "scrapy/core/downloader/handlers/http2.py",
+      "module": "downloader",
+      "line_coverage_pct": 0.0,
+      "branch_coverage_pct": 0.0
+    },
+    {
+      "file": "scrapy/core/_http2/stream.py",
+      "module": "downloader",
+      "line_coverage_pct": 0.0,
+      "branch_coverage_pct": 0.0
+    },
+    {
+      "file": "scrapy/core/_http2/agent.py",
+      "module": "downloader",
+      "line_coverage_pct": 0.0,
+      "branch_coverage_pct": 0.0
+    },
+    {
+      "file": "scrapy/core/downloader/handlers/_httpx.py",
+      "module": "downloader",
+      "line_coverage_pct": 34.0,
+      "branch_coverage_pct": 11.1
+    },
+    {
+      "file": "scrapy/extensions/memusage.py",
+      "module": "extensions",
+      "line_coverage_pct": 39.2,
+      "branch_coverage_pct": 15.0
+    },
+    {
+      "file": "scrapy/utils/console.py",
+      "module": "utilities",
+      "line_coverage_pct": 70.0,
+      "branch_coverage_pct": 85.7
+    },
+    {
+      "file": "scrapy/robotstxt.py",
+      "module": "downloader_mw",
+      "line_coverage_pct": 83.3,
+      "branch_coverage_pct": 100.0
+    }
+  ],
+  "top10_hotspots_coverage": [
+    {
+      "file": "scrapy/crawler.py",
+      "hotspot_score": 1.0,
+      "line_coverage_pct": 100.0,
+      "branch_coverage_pct": 100.0
+    },
+    {
+      "file": "scrapy/core/engine.py",
+      "hotspot_score": 0.802,
+      "line_coverage_pct": 100.0,
+      "branch_coverage_pct": 100.0
+    },
+    {
+      "file": "scrapy/extensions/feedexport.py",
+      "hotspot_score": 0.632,
+      "line_coverage_pct": 89.0,
+      "branch_coverage_pct": 92.3
+    },
+    {
+      "file": "scrapy/core/scraper.py",
+      "hotspot_score": 0.41,
+      "line_coverage_pct": 96.9,
+      "branch_coverage_pct": 95.2
+    },
+    {
+      "file": "scrapy/core/downloader/handlers/http11.py",
+      "hotspot_score": 0.403,
+      "line_coverage_pct": 99.7,
+      "branch_coverage_pct": 98.4
+    },
+    {
+      "file": "scrapy/pipelines/files.py",
+      "hotspot_score": 0.363,
+      "line_coverage_pct": 92.1,
+      "branch_coverage_pct": 85.7
+    },
+    {
+      "file": "scrapy/utils/python.py",
+      "hotspot_score": 0.27,
+      "line_coverage_pct": 89.8,
+      "branch_coverage_pct": 90.4
+    },
+    {
+      "file": "scrapy/utils/defer.py",
+      "hotspot_score": 0.256,
+      "line_coverage_pct": 97.0,
+      "branch_coverage_pct": 93.8
+    },
+    {
+      "file": "scrapy/commands/parse.py",
+      "hotspot_score": 0.245,
+      "line_coverage_pct": 100.0,
+      "branch_coverage_pct": 100.0
+    },
+    {
+      "file": "scrapy/settings/__init__.py",
+      "hotspot_score": 0.235,
+      "line_coverage_pct": 100.0,
+      "branch_coverage_pct": 100.0
+    }
+  ],
+  "top10_hotspots_mean_branch_coverage_pct": 95.6,
+  "test_run": {
+    "tests": 4911,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 417,
+    "time_seconds": 732.3,
+    "passed": 4494
+  }
+}

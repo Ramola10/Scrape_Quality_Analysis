@@ -1,0 +1,11 @@
+file,hotspot_score,line_coverage_pct,branch_coverage_pct
+scrapy/crawler.py,1.0,100.0,100.0
+scrapy/core/engine.py,0.802,100.0,100.0
+scrapy/extensions/feedexport.py,0.632,89.0,92.3
+scrapy/core/scraper.py,0.41,96.9,95.2
+scrapy/core/downloader/handlers/http11.py,0.403,99.7,98.4
+scrapy/pipelines/files.py,0.363,92.1,85.7
+scrapy/utils/python.py,0.27,89.8,90.4
+scrapy/utils/defer.py,0.256,97.0,93.8
+scrapy/commands/parse.py,0.245,100.0,100.0
+scrapy/settings/__init__.py,0.235,100.0,100.0

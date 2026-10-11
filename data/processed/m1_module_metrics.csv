@@ -1,10 +1,10 @@
 module,label,files,Ca_afferent,Ce_efferent,instability,depends_on_modules,used_by_modules,violating_imports,violating_imports_runtime,violating_imports_lazy
-cli,CLI & Tools,20,0,29,1.0,5,0,0,0,0
-engine,Engine & Crawler,10,8,25,0.76,4,2,0,0,0
-downloader,Downloader,23,0,22,1.0,2,0,0,0,0
-downloader_mw,Downloader Middlewares,15,0,20,1.0,3,0,1,1,0
-spiders,Spiders & Spider MW,19,11,18,0.62,2,6,0,0,0
+cli,CLI & Tools,20,0,31,1.0,5,0,0,0,0
+engine,Engine & Crawler,10,8,25,0.76,3,2,0,0,0
+downloader,Downloader,23,0,24,1.0,2,0,0,0,0
+downloader_mw,Downloader Middlewares,15,0,22,1.0,3,0,1,1,0
+spiders,Spiders & Spider MW,18,9,21,0.7,2,5,0,0,0
 item_processing,Item Processing & Export,7,3,20,0.87,3,3,1,1,0
-extensions,Extensions,17,1,22,0.96,2,1,0,0,0
-framework_api,"Framework API (http, settings, signals)",26,98,18,0.16,3,8,5,4,1
-utilities,Utilities,42,99,11,0.1,4,8,30,28,2
+extensions,Extensions,17,1,24,0.96,2,1,0,0,0
+framework_api,"Framework API (http, settings, signals, Spider base)",27,99,22,0.18,3,8,7,6,1
+utilities,Utilities,42,99,14,0.12,4,8,34,31,3

@@ -1,0 +1,10 @@
+module,statements,covered_statements,branches,covered_branches,line_coverage_pct,branch_coverage_pct,files,files_below_50pct,label
+cli,1266,1256,332,328,99.2,98.8,18,0,CLI & Tools
+engine,1758,1751,512,509,99.6,99.4,10,0,Engine & Crawler
+downloader,1952,1322,396,244,67.7,61.6,23,5,Downloader
+downloader_mw,940,928,260,260,98.7,100.0,15,0,Downloader Middlewares
+spiders,1081,1081,338,338,100.0,100.0,18,0,Spiders & Spider MW
+item_processing,1026,992,234,222,96.7,94.9,7,0,Item Processing & Export
+extensions,1413,1326,304,281,93.8,92.4,17,1,Extensions
+framework_api,1761,1760,418,416,99.9,99.5,27,0,"Framework API (http, settings, signals, Spider base)"
+utilities,2446,2370,698,667,96.9,95.6,42,0,Utilities

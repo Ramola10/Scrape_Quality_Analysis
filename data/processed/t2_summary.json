@@ -1,0 +1,82 @@
+{
+  "scrapy_version": "2.19.0",
+  "scrapy_commit": "8026deeaac371a5d9a3edbe4886d58f61139d464",
+  "test_run_host": "PANDORA",
+  "test_run_timestamp": "2026-10-10T20:52:28.882499+02:00",
+  "test_run_environment": "Windows, Python 3.14.6 (see config/test-environment.txt)",
+  "tests_total": 4911,
+  "tests_by_status": {
+    "passed": 4494,
+    "skipped": 417
+  },
+  "total_time_s": 723.9,
+  "median_time_per_test_ms": 6.0,
+  "p90_time_per_test_ms": 498.7,
+  "p99_time_per_test_ms": 2218.0,
+  "tests_slower_than_1s": 338,
+  "tests_slower_than_1s_pct": 7.5,
+  "slowest_5pct_share_of_total_time_pct": 64.3,
+  "slowest_test_files": [
+    {
+      "test_file": "tests/test_crawler_subprocess.py",
+      "tests": 76,
+      "total_s": 124.78,
+      "median_ms": 1122.0
+    },
+    {
+      "test_file": "tests/test_command_runspider.py",
+      "tests": 55,
+      "total_s": 80.45,
+      "median_ms": 1353.0
+    },
+    {
+      "test_file": "tests/test_commands.py",
+      "tests": 73,
+      "total_s": 69.51,
+      "median_ms": 584.0
+    },
+    {
+      "test_file": "tests/test_command_parse.py",
+      "tests": 36,
+      "total_s": 54.23,
+      "median_ms": 1477.0
+    },
+    {
+      "test_file": "tests/test_downloader_handler_aiohttp.py",
+      "tests": 248,
+      "total_s": 47.4,
+      "median_ms": 12.0
+    },
+    {
+      "test_file": "tests/test_downloader_handler_twisted_http11.py",
+      "tests": 250,
+      "total_s": 46.87,
+      "median_ms": 14.0
+    },
+    {
+      "test_file": "tests/test_command_genspider.py",
+      "tests": 35,
+      "total_s": 36.21,
+      "median_ms": 927.0
+    },
+    {
+      "test_file": "tests/test_command_shell.py",
+      "tests": 31,
+      "total_s": 36.2,
+      "median_ms": 1357.0
+    },
+    {
+      "test_file": "tests/test_pipeline_files.py",
+      "tests": 62,
+      "total_s": 25.67,
+      "median_ms": 10.5
+    },
+    {
+      "test_file": "tests/test_crawl.py",
+      "tests": 62,
+      "total_s": 18.94,
+      "median_ms": 20.0
+    }
+  ],
+  "unmapped_tests": 110
+}

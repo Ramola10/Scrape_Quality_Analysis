@@ -70,7 +70,7 @@ scrapy/utils/sitemap.py,6,32,12,1,110,8,167,utilities,0.029
 scrapy/downloadermiddlewares/httpcache.py,9,29,8,0,144,9,154,downloader_mw,0.029
 scrapy/extensions/memusage.py,9,23,4,0,141,11,137,extensions,0.028
 scrapy/utils/datatypes.py,17,23,5,0,97,11,244,utilities,0.028
-scrapy/spiders/__init__.py,12,18,4,0,141,14,128,spiders,0.028
+scrapy/spiders/__init__.py,12,18,4,0,141,14,128,framework_api,0.028
 scrapy/downloadermiddlewares/offsite.py,8,20,7,0,104,12,223,downloader_mw,0.027
 scrapy/utils/console.py,10,27,6,0,105,9,97,utilities,0.027
 scrapy/utils/deprecate.py,14,32,5,0,175,7,51,utilities,0.025

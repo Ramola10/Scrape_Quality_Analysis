@@ -2,26 +2,26 @@
   "scrapy_version": "2.19.0",
   "scrapy_commit": "8026deeaac371a5d9a3edbe4886d58f61139d464",
   "production_files": 179,
-  "imports_total": 879,
+  "imports_total": 935,
   "imports_by_kind": {
-    "runtime": 635,
-    "typing": 233,
-    "lazy": 11
+    "runtime": 676,
+    "typing": 247,
+    "lazy": 12
   },
-  "cross_module_imports_executed": 498,
-  "violating_imports": 37,
-  "violation_rate_pct": 7.4,
+  "cross_module_imports_executed": 539,
+  "violating_imports": 43,
+  "violation_rate_pct": 8.0,
   "violations_by_pair": {
-    "utilities -> framework_api": 26,
-    "framework_api -> spiders": 4,
-    "utilities -> spiders": 2,
+    "utilities -> framework_api": 31,
+    "framework_api -> spiders": 6,
     "downloader_mw -> spiders": 1,
-    "item_processing -> spiders": 1,
     "framework_api -> item_processing": 1,
+    "item_processing -> spiders": 1,
     "utilities -> engine": 1,
-    "utilities -> item_processing": 1
+    "utilities -> item_processing": 1,
+    "utilities -> spiders": 1
   },
-  "typing_only_imports_that_would_violate": 93,
+  "typing_only_imports_that_would_violate": 91,
   "module_cycles_runtime_imports": [
     [
       "engine",
