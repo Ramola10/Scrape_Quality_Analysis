@@ -1,3 +1,4 @@
+
 # Scrapy – Quality Attribute Analysis (Software Architecture, Assignment 2)
 
 Analysis of **Scrapy** (https://github.com/scrapy/scrapy) regarding
