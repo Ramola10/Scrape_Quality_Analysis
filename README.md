@@ -44,7 +44,7 @@ python scripts/4_plot_performance.py
 |---|---|---|
 | 1.1 System Description & History | `scripts/1_1_system_history.py` | `data/raw/commits.csv`, `data/raw/loc_per_file.csv`, `data/processed/summary_1_1.json`, `contributors.csv`, `activity_per_year.csv`, `loc_per_area.csv`, `figures/1_1_*.png` |
 | 1.3 Decomposition view (Figure 3) | `config/modules.json` (drawn by hand, no script) | 9 modules, file-to-module mapping and `<<allowed to use>>` rules, `figures/1_3_decomposition_view.png` |
-| 1.3 Component-and-connector view (Figure 4) | drawn by hand from Scrapy's architecture documentation, no script | `figures/1_3_cc_view.png` | 9 modules, file-to-module mapping and `<<allowed to use>>` rules |
+| 1.3 Component-and-connector view (Figure 4) | drawn by hand from Scrapy's architecture documentation, no script | `figures/1_3_cc_view.png` |
 | 2 Modifiability – M1 import coupling | `scripts/2_m1_import_coupling.py` | `data/raw/import_edges.csv`, `data/processed/m1_*`, `figures/2_m1_dependency_matrix.png`, `figures/2_m1_module_graph.dot` |
 | 2 Modifiability – M2 change coupling | `scripts/2_m2_change_coupling.py` | `data/raw/window_commits.csv`, `data/raw/window_changes.csv`, `data/processed/m2_*`, `figures/2_m2_change_coupling_matrix.png` |
 | 2 Modifiability – M3 hotspots | `scripts/2_m3_hotspots.py` | `data/raw/function_complexity.csv`, `data/processed/m3_*`, `figures/2_m3_hotspots.png` |
