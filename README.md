@@ -43,15 +43,16 @@ python scripts/4_plot_performance.py
 | Report section | Script / tool | Outputs |
 |---|---|---|
 | 1.1 System Description & History | `scripts/1_1_system_history.py` | `data/raw/commits.csv`, `data/raw/loc_per_file.csv`, `data/processed/summary_1_1.json`, `contributors.csv`, `activity_per_year.csv`, `loc_per_area.csv`, `figures/1_1_*.png` |
-| 1.3 Decomposition view (module definition) | `config/modules.json` | 9 modules, file-to-module mapping and `<<allowed to use>>` rules |
+| 1.3 Decomposition view (Figure 3) | `config/modules.json` (drawn by hand, no script) | 9 modules, file-to-module mapping and `<<allowed to use>>` rules, `figures/1_3_decomposition_view.png` |
+| 1.3 Component-and-connector view (Figure 4) | drawn by hand from Scrapy's architecture documentation, no script | `figures/1_3_cc_view.png` | 9 modules, file-to-module mapping and `<<allowed to use>>` rules |
 | 2 Modifiability – M1 import coupling | `scripts/2_m1_import_coupling.py` | `data/raw/import_edges.csv`, `data/processed/m1_*`, `figures/2_m1_dependency_matrix.png`, `figures/2_m1_module_graph.dot` |
 | 2 Modifiability – M2 change coupling | `scripts/2_m2_change_coupling.py` | `data/raw/window_commits.csv`, `data/raw/window_changes.csv`, `data/processed/m2_*`, `figures/2_m2_change_coupling_matrix.png` |
 | 2 Modifiability – M3 hotspots | `scripts/2_m3_hotspots.py` | `data/raw/function_complexity.csv`, `data/processed/m3_*`, `figures/2_m3_hotspots.png` |
 | 3 Testability – raw test data | pytest, pytest-cov | `data/testability/coverage.xml`, `data/testability/junit.xml`, `data/testability/*.txt`, `data/testability/collected-tests.txt`, `config/test-environment.txt` |
 | 3 Testability – T1 coverage | `scripts/3_t1_coverage.py` | `data/processed/t1_*`, `figures/3_t1_coverage_per_module.png` |
 | 3 Testability – T2 test execution time | `scripts/3_t2_test_execution_time.py` | `data/raw/test_cases.csv`, `data/processed/t2_*`, `figures/3_t2_test_execution_time.png` |
-| 3 Testability – T3 test co-evolution (change sets) | `scripts/3_t3_test_coevolution.py` | `data/raw/changesets.csv`, `data/processed/t3_*`, `figures/3_t3_test_coevolution.png` |
-| 3 Testability – T3 variant (single commits) | `scripts/3_m3_test_coevolution.py` | `data/raw/test_coevolution_commits.csv`, `data/processed/test_coevolution_*`, `figures/3_m3_test_coevolution.png` |
+| 3 Testability – T3 test co-evolution, used in the report (single commits, 67.1 %) | `scripts/3_m3_test_coevolution.py` | `data/raw/test_coevolution_commits.csv`, `data/processed/test_coevolution_*`, `figures/3_m3_test_coevolution.png` |
+| 3 Testability – T3 alternative, not used in the report (change sets, 75.8 %) | `scripts/3_t3_test_coevolution.py` | `data/raw/changesets.csv`, `data/processed/t3_*`, `figures/3_t3_test_coevolution.png` |
 | 4 Performance – throughput, P95 latency, peak memory vs. concurrency | `scripts/4_run_performance.py`, `scripts/4_performance_spider.py`, `scripts/4_plot_performance.py` | `data/raw/4_*`, `data/processed/4_*`, `figures/4_*_with_sd.png` – details in `README_PERFORMANCE.md` |
 
 ## Method notes (1.1)
@@ -98,12 +99,11 @@ python scripts/4_plot_performance.py
 * **T2 execution time**: per-test run times from the JUnit report (skipped tests excluded). Each
   test is grouped under every module its test file imports directly (re-exports followed).
   Times depend on the machine.
-* **T3 co-evolution**: main variant = one change set per commit on the first-parent history of
-  the main branch (a merged PR or a direct commit), so tests added in a separate commit of the
-  same PR still count; bug fix = message contains fix/fixes/fixed/bug; change sets touching
-  > 30 production files excluded. Variant (`3_m3_test_coevolution.py`) = single non-merge commits
-  in the 3-year window. Last 3 years: 75.8 % of change sets vs. 67.1 % of single commits also
-  changed tests.
+* **T3 co-evolution** (used in the report): `3_m3_test_coevolution.py` counts single non-merge
+     commits in the 3-year window that change production code under scrapy/ and checks whether
+     they also change a test file under tests/: 445 of 663 commits = 67.1 %. Alternative, not used
+     in the report (`3_t3_test_coevolution.py`): one change set per merged PR on the first-parent
+     history, so tests added in a separate commit of the same PR still count: 75.8 %.
 
 ## Method notes (Performance)
 
